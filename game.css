@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("img/FF7Header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.LoginBox{
+    width: 320px;
+    height: 420px;
+    background: salmon;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+/* .user{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 50px); 
+}
+*/
+h1{
+    color: white;
+    margin-bottom: 40px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 44px;
+}
+.LoginBox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 70px 30px;
+    position: absolute;
+}
+.LoginBox input{
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 70px 30px;
+    position: absolute;
+}
+.LoginBox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px;
+    outline: none;
+    height: 0px;
+    font-size: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 70px 30px;
+    position: absolute;
+}
+.LoginBox input[placeholder="Enter UserName"], input[placeholder="Enter Password"]{
+    font-size: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 70px 30px;
+    position: absolute;
+
+}

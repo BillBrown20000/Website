@@ -1,0 +1,29 @@
+body{
+    font-family: 'Lobster', cursive;
+    background-image: url("img/FF7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+}
+header{
+    font-family: 'Anton', sans-serif;
+    background-image:url("img/Midgar.jpg.jpg");
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: initial;
+    color: whitesmoke
+}
+h1{
+    text-align: center;
+
+}
+footer{
+    text-align: center;
+    color: black;
+    
+}
+.Design{
+    background-image: url("img/FF7Header.jpg");
+}
