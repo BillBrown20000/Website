@@ -7,7 +7,7 @@ body{
     color: black;
 }
 header{
-    background-image: url(img/Gang.jpg);
+    background: url(img/gang.jpg);
     font-family: 'Permanent Marker', cursive;
     color: black;
     width: 100%;
